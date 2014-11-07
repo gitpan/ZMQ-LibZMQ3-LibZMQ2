@@ -3,6 +3,7 @@ abstract: 'Seamlessly Run LibZMQ Progs against LibZMQ3'
 author:
   - 'Binary.com <perl@binary.com>'
 build_requires:
+  Proc::Guard: 0
   Storable: 0
   Test::More: 0
 configure_requires:
@@ -21,4 +22,4 @@ no_index:
 requires:
   ZMQ::LibZMQ3: 0
   perl: 5.006
-version: 0.01
+version: 0.02
